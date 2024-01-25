@@ -1,11 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/main.css">
 </head>
-<body>
-    
+<body class="body">
+    <header class="header">
+        <h1 class="header__titulo">Encriptador</h1>
+    </header>
+    <main class="main">
+        <section class="section main__section--input">
+            <textarea class="input section__input" required placeholder="ingresar texto"></textarea>
+            <div class="section__butons">
+                <button class="button section__button--encriptar">Encriptar</button>            
+                <button class="button section__button--desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="section main__section--output">
+            <textarea class="input section__output"  disabled></textarea>
+            <button class="button section__button--copiar">Copiar</button>
+        </section>
+    </main>
 </body>
 </html>
