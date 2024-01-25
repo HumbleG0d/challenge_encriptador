@@ -1,6 +1,6 @@
 import { llaves } from "./llaves.js"
 
-function encriptacion(mensage) {
+export function encriptacion(mensage) {
  const array_letras = mensage.split("");
  let new_mensage = " ";
  array_letras.forEach(element => {
@@ -13,5 +13,3 @@ function encriptacion(mensage) {
 
  return new_mensage;
 }
-
-console.log(encriptacion("hola gatito como estas"));
