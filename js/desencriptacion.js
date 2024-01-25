@@ -1,6 +1,6 @@
 import { llaves } from "./llaves.js";
 
-function desencriptacion(mensage){
+export function desencriptacion(mensage){
   for(const [key , value] of Object.entries(llaves)){
     const regex = new RegExp(value, "g");
     mensage = mensage.replace(regex, key);
@@ -8,4 +8,3 @@ function desencriptacion(mensage){
   return mensage
 }
 
-console.log(desencriptacion('fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!'))
