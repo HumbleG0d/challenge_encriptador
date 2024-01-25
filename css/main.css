@@ -39,13 +39,17 @@
   grid-area: main__section--output;
 }
 
-.input{
-  width: 500px;
-  height: 600px; 
+.textarea{
+  width: 100%;
+  height: 80px; 
   padding: 10px; 
   border: 2.5px solid var(--color-border);
   border-radius: 10px;
   outline: none;
+}
+
+.textarea::-webkit-scrollbar{
+  width: 0px;
 }
 
 .button{
