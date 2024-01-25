@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+.body{
+  font-family: 'Noto Serif', serif;
+}
+
+.header__titulo{
+  text-align: center;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "main__section--input main__section--output";
+  justify-content: center;
+  gap: 80px;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main__section--input{
+  grid-area: main__section--input;
+}
+
+.main__section--output{
+  grid-area: main__section--output;
+}
+
+.input{
+  width: 500px;
+  height: 600px; 
+  padding: 10px; 
+}
+
+.button{
+  width: 120px;
+  height: 37px;
+}
+
+.section__butons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.section__button--copiar{
+  align-self: center;
+}
