@@ -56,6 +56,10 @@
   border-radius: 10px;
 }
 
+.button:hover{
+  background-color: var(--color-button-hover);
+}
+
 .section__butons{
   display: flex;
   justify-content: space-around;
