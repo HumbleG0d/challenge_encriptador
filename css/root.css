@@ -1,8 +1,8 @@
 :root{
-  --color-background: #17816c;
-  --color-title: #fb8c53;
-  --color-border: #fbd782;
-  --color-button: #dd563b;
-  --color-button-hover: #e4806b;
+  --color-background: linear-gradient(to right, #3494e6, #ec6ead);
+  --color-title: rgba(255, 255, 255, 0.8);
+  --color-border:#3494e6;
+  --color-button: #ec6ead;
+  --color-button-hover: #ec9bc3;
 }
 
