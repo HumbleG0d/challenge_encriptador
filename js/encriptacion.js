@@ -1,15 +1,15 @@
 import { llaves } from "./llaves.js"
 
-export function encriptacion(mensage) {
- const array_letras = mensage.split("");
- let new_mensage = " ";
+export function encriptacion(mensaje) {
+ const array_letras = mensaje.split("");
+ let new_mensaje = " ";
  array_letras.forEach(element => {
     if(element in llaves){
-        new_mensage += llaves[element];
+        new_mensaje += llaves[element];
     }else{
-        new_mensage += element;
+        new_mensaje += element;
     }
  });
 
- return new_mensage;
+ return new_mensaje;
 }

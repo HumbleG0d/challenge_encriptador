@@ -1,10 +1,10 @@
 import { llaves } from "./llaves.js";
 
-export function desencriptacion(mensage){
+export function desencriptacion(mensaje){
   for(const [key , value] of Object.entries(llaves)){
     const regex = new RegExp(value, "g");
-    mensage = mensage.replace(regex, key);
+    mensaje = mensaje.replace(regex, key);
   }
-  return mensage
+  return mensaje
 }
 
