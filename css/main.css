@@ -36,6 +36,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  color: var(--color-title);
 }
 
 .header{
@@ -57,16 +58,22 @@
 .section__input{
  width: 600px;
  height: 300px;
+ background-color: rgba(5,94,100,0.5);
 }
 
 .section__output{
   width: 300px;
   height: 100%;
- }
+  background-image: url(../assets/img_encriptador.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 .textarea{
   padding: 10px; 
   border: 2.5px solid var(--color-border);
+  color: var(--color-title);
   border-radius: 10px;
   outline: none;
   resize: none;
@@ -78,6 +85,7 @@
 
 .button{
   background-color: var(--color-button);
+  color: var(--color-title);
   width: 120px;
   height: 37px;
   border: 0;
