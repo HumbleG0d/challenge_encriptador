@@ -1,8 +1,8 @@
 :root{
-  --color-background: linear-gradient(to right, #3494e6, #ec6ead);
+  --color-background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(5,94,100,1) 60%);
   --color-title: rgba(255, 255, 255, 0.8);
-  --color-border:#3494e6;
-  --color-button: #ec6ead;
-  --color-button-hover: #ec9bc3;
+  --color-border:#1bc9ba;
+  --color-button: #eb994c;
+  --color-button-hover: #e5b17f;
 }
 
