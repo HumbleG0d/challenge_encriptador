@@ -18,7 +18,6 @@ button_encriptar.addEventListener("click", e => {
     const mensaje = textarea_input.value;
     const new_mensaje = encriptacion(mensaje);
     textarea_output.value = new_mensaje;
-    textarea_output.style.height = new_mensaje.length > 30 ? `${new_mensaje.length/3}px` : 'auto';
     textarea_input.value = "";
 });
 
@@ -26,7 +25,6 @@ button_desencriptar.addEventListener("click", e => {
     const mensaje = textarea_input.value;
     const new_mensaje = desencriptacion(mensaje);
     textarea_output.value = new_mensaje;
-    length > 30 ? `${new_mensaje.length/3}px` : 'auto';
     textarea_input.value = " ";
 });
 
