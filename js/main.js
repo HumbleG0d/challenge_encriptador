@@ -17,6 +17,7 @@ textarea_input.addEventListener("input", e => {
 button_encriptar.addEventListener("click", e => {
     const mensaje = textarea_input.value;
     const new_mensaje = encriptacion(mensaje);
+    new_mensaje.length > 0 ? textarea_output.style.backgroundImage = "none" : textarea_output.style.backgroundImage = "url(./assets/img_encriptador.jpg)";
     textarea_output.value = new_mensaje;
     textarea_input.value = "";
 });
