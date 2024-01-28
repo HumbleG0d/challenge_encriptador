@@ -58,7 +58,7 @@
 .section__input{
  width: 600px;
  height: 300px;
- background-color: rgba(5,94,100,0.5);
+ background-color: var(--color-background--input);
 }
 
 .section__output{
@@ -103,4 +103,28 @@
 
 .section__button--copiar{
   align-self: center;
+}
+
+.footer{
+  color: var(--color-title);
+  display: flex;
+  flex-direction: column;
+}
+
+.div__footer{
+  align-self: center;
+}
+
+.bx{
+  margin-right: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.bxl-github:hover{
+  color: var(--color-github--hover);
+}
+
+.bxl-linkedin-square:hover{
+  color:var(--color-linkedin--hover);
 }
