@@ -20,4 +20,4 @@
     - JavaScript
 
 ## Diseño
-    ![Foto de la pagina](../assets/web_encriptador.png)
+    ![Foto de la pagina](assets/web_encriptador.png)
