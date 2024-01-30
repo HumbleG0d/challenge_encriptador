@@ -18,7 +18,6 @@
     - HTML5
     - CSS3 (sin preprocesadores)
     - JavaScript
-    - GSAP (GreenSock Animation Platform)
 
 ## Diseño
-    <image src="../assets/web_encriptador.png" alt="Captura de pantalla de la pagina encriptadora">
+    ![Foto de la pagina](../assets/web_encriptador.png)
