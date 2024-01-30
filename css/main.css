@@ -128,3 +128,38 @@
 .bxl-linkedin-square:hover{
   color:var(--color-linkedin--hover);
 }
+
+@media (max-width: 768px){
+  .main{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header"
+    "main__section--input"
+    "main__section--output";
+  }
+  .section__input{
+    width: 100%;
+  }
+  .section__output{
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px){
+  .section__input{
+    width: 100%;
+  }
+  .section__output{
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px){
+  .section__input{
+    width: 100%;
+  }
+  .section__output{
+    width: 100%;
+  }
+}
