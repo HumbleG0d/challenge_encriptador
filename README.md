@@ -23,4 +23,4 @@
 ![Foto de la pagina](assets/web_encriptador.png)
 
 ## Demo
-[](https://humbleg0d.github.io/challenge_encriptador/ )
+[Ver pagina](https://humbleg0d.github.io/challenge_encriptador/ )
